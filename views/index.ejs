@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+  
+</head>
+<body>
+
+        <% include partials/new.ejs %>
+<h2>Grouping Form Data with Fieldset</h2>
+
+<form action="/contact">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br>
+    Resume: <br>
+    <input type="file" name="chosefile">
+    
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+
+
+</body>
+</html>
